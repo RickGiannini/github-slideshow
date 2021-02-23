@@ -2,20 +2,68 @@
 // *  Rock - Paper - Scissors   *
 // *                            *
 // * version 1.0  2-22-2021     *
-// * Revised xx/xx/xxxx         *
+// * Revised 02/22/2021         *
 // * Rick Giannini - RWU        *
 // ******************************
 
 
 #include <iostream>
 using namespace std;
-int main()
-{
+int main() {
+
+     cout << " Welcome to Rock Paper Scissors! " << endl;      //The following lines explain the game.
+     cout << endl;                                             // Blank line for aesthetics.
+     cout << " The directions are as follows; " << endl;
+     cout << endl;                                            // Blank line for aesthetics.
+
+     cout << " You will be asked to choose 'r' for Rock, 'p' for Paper or 's' for Scissors." << endl;
+     cout << endl;                                            // Blank line for aesthetics.
+     cout << " Rock breaks Scissors, Scissors cut Paper, Paper covers Rock. " << endl; // explanation of game
+
 
 
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

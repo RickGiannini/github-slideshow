@@ -2,14 +2,24 @@
 // *  Rock - Paper - Scissors   *
 // *                            *
 // * version 1.0  2-22-2021     *
-// * Revised 02/22/2021         *
+// * Revised 03/02/2021         *
 // * Rick Giannini - RWU        *
 // ******************************
 
 
 #include <iostream>
 using namespace std;
+int userGuess, computerGuess();
+string determinewinner();
+string showResults (int userGuess, int computerGuess);
+
 int main() {
+
+   int getUserGuess();
+   int getcomputerGuess();
+   string determinewinner();
+   string showResults(int userGuess, int computerGuess);
+
 
      cout << " Welcome to Rock Paper Scissors! " << endl;      //The following lines explain the game.
      cout << endl;                                             // Blank line for aesthetics.

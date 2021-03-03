@@ -22,13 +22,13 @@ do{
 int choice;
 
 
-     cout << " Welcome to Rock Paper Scissors! " << endl;      //The following lines explain the game.
-     cout << endl;                                             // Blank line for aesthetics.
+     cout << " Welcome to Rock Paper Scissors! " << endl;  //The following lines explain the game.
+     cout << endl;  // Blank line for aesthetics.
      cout << " The directions are as follows; " << endl;
-     cout << endl;                                            // Blank line for aesthetics.
+     cout << endl;   // Blank line for aesthetics.
      cout << " Rock breaks Scissors, Scissors cut Paper, Paper covers Rock. " << endl; // explanation of game...line was moved it was out of sync
      cout << " You will be asked to choose '1' for Rock, '2' for Paper or '3' for Scissors." << endl; // initially I had rps for a choice, changed to 123 game wouldnt function.
-     cout << endl;                                            // Blank line for aesthetics.
+     cout << endl;  // Blank line for aesthetics.
 	 
 	 cin >>choice;
 	 

@@ -1,7 +1,7 @@
 // ******************************
 // *  Rock - Paper - Scissors   *
 // *                            *
-// * version 1.0  2-22-2021     *
+// * version 1.3  2-22-2021     *
 // * Revised 03/03/2021         *
 // * Rick Giannini - RWU        *
 // ******************************
@@ -27,7 +27,7 @@ int choice;
      cout << " The directions are as follows; " << endl;
      cout << endl;                                            // Blank line for aesthetics.
      cout << " Rock breaks Scissors, Scissors cut Paper, Paper covers Rock. " << endl; // explanation of game...line was moved it was out of sync
-     cout << " You will be asked to choose '1' for Rock, '2' for Paper or '3' for Scissors." << endl; //rp&s changes to 123 game wouldnt function
+     cout << " You will be asked to choose '1' for Rock, '2' for Paper or '3' for Scissors." << endl; // initially I had rps for a choice, changed to 123 game wouldnt function.
      cout << endl;                                            // Blank line for aesthetics.
 	 
 	 cin >>choice;

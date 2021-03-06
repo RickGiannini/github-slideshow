@@ -85,14 +85,14 @@ int choice;
 		 cout << "I do not understand, please choose 1, 2 or 3" << endl; //correction for invalid input by player
 		 }
 		 
-		 //this will display the game tally for computer and human player
+		 //this will display the game tally for computer and human players
+		 
 		 cout << "Wins: " << win << endl;
 		 cout << "Losses: " << lose << endl;
 		 cout << "Tie: " << tie << endl;
 		 
 		 cout << "Care for a rematch? Y/N" << endl;
 		 cin >> ch;
-		 system("CLS"); //Clears the previous game from the screen to reduce clutter
 		 }while(ch == 'Y'|| ch == 'y');
 		 
 		 return 0;

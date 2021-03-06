@@ -41,17 +41,17 @@ int choice;
          tie++;
          }
 		 
-		 elseif(choice == 1 && ai == 2){
+		 else if(choice == 1 && ai == 2){
 		 cout << "Paper covers the rock, you lose!" << endl;
 		 lose++;
 		 }
 		 
-		 elseif(choice == 1 && ai == 3) {
+		 else if(choice == 1 && ai == 3) {
 		 cout << "Rock breaks the scissors, you win!" << endl;
 		 win++;
 		 }
 		 
-		 elseif(choice == 2 && ai == 1){
+		 else if(choice == 2 && ai == 1){
 		 cout << "Paper covers the rock, you win" << endl;
 		 win++;
 		 }
@@ -91,9 +91,9 @@ int choice;
 		 cout << "Tie: " << tie << endl;
 		 
 		 cout << "Care for a rematch? Y/N" << endl;
-		 cin << ch;
+		 cin >> ch;
 		 system("CLS"); //Clears the previous game from the screen to reduce clutter
-		 }while(ch == 'Y'| | ch == 'y');
+		 }while(ch == 'Y'|| ch == 'y');
 		 
 		 return 0;
 		 

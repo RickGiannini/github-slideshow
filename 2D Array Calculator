@@ -1,0 +1,28 @@
+/ *******************************/
+/*  2 D Array Calculator        */
+/*  Rick Giannini               */
+/*  March 6, 2021               */
+/*  Ver 1.0                     */
+/*  Revised Date --/--/----     */
+/********************************/
+
+#include <iostream>
+using namespace std;
+
+int main () {
+
+int r,c,a[10][10], b[10][10], sum [10][10];
+
+cout << "You will be asked to enter some random numbers for this virtual calculator.";
+
+cout << "Enter a number between 1 and 10 to pick the number of rows.";
+cin >> r;
+
+cout << "Please enter a number between 1 and 10 to pick the number of columns:";
+cin >> c;
+
+cout << "Please input your number choices" << endl;
+
+
+return 0;
+}

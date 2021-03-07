@@ -31,7 +31,7 @@ output = number1 * number2;
 output = number1 / number2;
 } else
 cout << "Incorrect selection. ";                         // Informs the user that an incorrect mathematical operator was entered
-cout << "The answer is : " << output;                   // Answer is displayed on the screen.
+cout << "The answer is : " << output;                   // Answer is displayed on the screen for the user to see.
 
 return 0;
 }

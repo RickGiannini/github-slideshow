@@ -1,28 +1,37 @@
-/ *******************************/
-/*  2 D Array Calculator        */
-/*  Rick Giannini               */
-/*  March 6, 2021               */
-/*  Ver 1.0                     */
-/*  Revised Date --/--/----     */
-/********************************/
+// *******************************/
+//*  2 D Array Calculator        */
+//*  Rick Giannini               */
+//*  March 6, 2021               */
+//*  Ver 1.0                     */
+//*  Revised Date 03/07/2021     */
+//********************************/
 
 #include <iostream>
 using namespace std;
 
 int main () {
+int number1, number2;
+char op;                                                     //The operator will define mathematical work, add, subrtract, etc.
 
-int r,c,a[10][10], b[10][10], sum [10][10];
+cout << "Please enter a number: ";                           //prompts user to enter a number
+cin >> number1;                                              // user input
+cout << "Select your choice of mathematical operations, add '+', subtract '/', multiply '*' or divide '/' : ";
+cin >> op;                                                  // user selects the operator
+cout << "OK, please enter your second number: ";
+cin >> number2;
+int output;
 
-cout << "You will be asked to enter some random numbers for this virtual calculator.";
-
-cout << "Enter a number between 1 and 10 to pick the number of rows.";
-cin >> r;
-
-cout << "Please enter a number between 1 and 10 to pick the number of columns:";
-cin >> c;
-
-cout << "Please input your number choices" << endl;
-
+if(op == '+') {                                             // The if & the else if statements here will account for the user input of different operators.
+output = number1 + number2;
+} else if(op == '-') {
+output = number1 - number2;
+} else if(op == '*') {
+output = number1 * number2;
+} else if(op == '/') {
+output = number1 / number2;
+} else
+cout << "Incorrect selection. ";                         // Informs the user that an incorrect mathematical operator was entered
+cout << "The answer is : " << output;                   // Answer is displayed on the screen.
 
 return 0;
 }

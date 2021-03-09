@@ -1,0 +1,17 @@
+// *******************************/
+//*  String with pointers        */
+//*  Rick Giannini               */
+//*  March 9,  2021              */
+//*  Ver 1.0                     */
+//*  Revised Date --/--/----     */
+//********************************/
+
+#include <iostream>
+#incluse <string>
+using namespacce std;
+
+int main(void) {
+
+
+
+}

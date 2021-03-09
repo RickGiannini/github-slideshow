@@ -1,0 +1,3 @@
+This file is essentially a calculator. The human is prompted by the computer to enter their first number,
+they are prompted to enter an operator +-*/
+then enter a 2nd number, the computer will calculate the equasion.

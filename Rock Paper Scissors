@@ -22,7 +22,6 @@ int lose= 0;
 do{
 int choice;
 
-
      cout << " Welcome to Rock Paper Scissors! " << endl;  //The following lines explain the game.
      cout << endl;  // Blank line for aesthetics.
      cout << " The directions are as follows; " << endl;
@@ -39,49 +38,31 @@ int choice;
 	 if(choice == 1 && ai == 1){
          cout << "Rock vs rock - tie game!" << endl;
          tie++;
-         }
-		 
-		 else if(choice == 1 && ai == 2){
+         } else if(choice == 1 && ai == 2){
 		 cout << "Paper covers the rock, you lose!" << endl;
 		 lose++;
-		 }
-		 
-		 else if(choice == 1 && ai == 3) {
+		 } else if(choice == 1 && ai == 3) {
 		 cout << "Rock breaks the scissors, you win!" << endl;
 		 win++;
-		 }
-		 
-		 else if(choice == 2 && ai == 1){
-		 cout << "Paper covers the rock, you win" << endl;
+		 } else if(choice == 2 && ai == 1){
+		 cout << "Paper covers the rock, you win! " << endl;
 		 win++;
-		 }
-		 
-		 else if(choice == 2 && ai == 2){
+		 } else if(choice == 2 && ai == 2){
 		 cout << "Paper vs paper - tie game!" << endl;
 		 tie++;
-		 }
-		 
-		 else if(choice == 2 && ai == 3){
+		 } else if(choice == 2 && ai == 3){
 		 cout << "Scissors cut the paper, you lose!" << endl;
 		 lose++;
-		 }
-		 
-		 else if(choice == 3 && ai == 1){
+		 } else if(choice == 3 && ai == 1){
 		 cout << "Rock breaks the scissors, you lose!" << endl;
 		 lose++;
-		 }
-		 
-		 else if(choice == 3 && ai == 2){
+		 } else if(choice == 3 && ai == 2){
 		 cout << "Scissors cut the paper, you win!" << endl;
 		 win++;
-		 }
-		 
-		 else if(choice == 3 && ai == 3){
+		 } else if(choice == 3 && ai == 3){
 		 cout << " Scissors vs scissors, tie game!" << endl;
 		 tie++;
-		 }
-		 
-		 else{
+		 } else{
 		 cout << "I do not understand, please choose 1, 2 or 3" << endl; //correction for invalid input by player
 		 }
 		 
@@ -95,8 +76,7 @@ int choice;
 		 cin >> ch;
 		 }while(ch == 'Y'|| ch == 'y');
 		 
-		 return 0;
-		 
+		 return 0; 
 		 }
 		 
 		 

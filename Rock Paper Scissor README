@@ -1,0 +1,7 @@
+The file Rock Paper Scissors is a computerized game where the user (human) attempts to win a game of chance over artificial intelligence; aka the computer.
+The person enters a number (1 for Rock, 2 for Paper 3 for Scissors) and a random number is generated for the computer
+the game results in three final results:
+- human wins
+- computer wins
+- tie game.
+

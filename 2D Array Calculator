@@ -13,12 +13,12 @@ int main () {
 int number1, number2;
 char op;                                                     //The operator will define mathematical work, add, subrtract, etc.
 
-cout << "Please enter a number and press "Enter" : ";       //prompts user to enter a number I added the "press Enter" directions, as I was showing this to a person at work and he tried to enter NUm1 the operator and Num2
+cout << "Please enter a number and press 'Enter' : ";       //prompts user to enter a number I added the "press Enter" directions, as I was showing this to a person at work and he tried to enter NUm1 the operator and Num2
 
 cin >> number1;                                              // user input
 cout << "Select your choice of mathematical operations, add '+', subtract '/', multiply '*' or divide '/' : ";
 cin >> op;                                                  // user selects the operator
-cout << "OK, please enter your second number and press "Enter" : ";
+cout << "OK, please enter your second number and press 'Enter' : ";
 cin >> number2;
 int output;
 

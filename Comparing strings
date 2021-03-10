@@ -13,7 +13,7 @@ using namespace std;
 int main(void) {
 string guess = "orange";
 string answer;
-cout << "what color is an orange?";
+cout << "what color is an orange?" << endl;
 getline(cin, answer);
 if(guess.compare(orange) == 0);
 cout << "Thats correct.";

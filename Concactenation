@@ -15,12 +15,14 @@ int main(void) {
 string getlineFirst, string getlineSecond, result;
 
 cout << " You will enter one half of a sentence here, and the rest in a moment";   //user enters text
-cin getlineFirst;
+getlineFirst (cin getlineFirst);
 cout << "OK, let's finish the sentence here:";
-cin getlineSecond;
+getlineSecond (cin getlineSecond);
 
 result = getlineFirst + "" + getlineSecond;
 result = getlineSecond + "" + getlineFirst;
+
+cout << result << endl;
 
 return 0;
 

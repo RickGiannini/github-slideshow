@@ -13,12 +13,12 @@ using namespace std;
 int main(void) {
 string guess = "orange";
 string answer;
-cout << "what color is an orange?" << endl;
+cout << "What color is an orange ?" << endl;
 getline(cin, answer);
-if(guess.compare(orange) == 0);
+if(guess.compare (answer) == 0);
 cout << "Thats correct.";
 else
-cout << "How did you get that wrong?";
+cout << "How did you get that wrong ?";
 return 0,
 
 }

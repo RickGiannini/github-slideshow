@@ -1,0 +1,24 @@
+// *******************************/
+//*  Comparing Strings           */
+//*  Rick Giannini               */
+//*  March 9, 2021               */
+//*  Ver 1.0                     */
+//*  Revised Date --/--/----     */
+//********************************/
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(void) {
+string guess = "orange";
+string answer;
+cout << "what color is an orange?";
+getline(cin, answer);
+if(guess.compare(orange) == 0);
+cout << "Thats correct.";
+else
+cout << "How did you get that wrong?";
+return 0,
+
+}

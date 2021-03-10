@@ -2,7 +2,7 @@
 //*  Concactenation              */
 //*  Rick Giannini               */
 //*  March 9, 2021               */
-//*  Ver 1.0                     */
+//*  Ver 2.0                     */
 //*  Revised Date 03/10/2021     */
 //********************************/
 
@@ -12,17 +12,20 @@ using namespace std;
 
 int main(void) {
 
-string getlineFirst, string getlineSecond, result;
+string s1, result1;
+string s2, result2;
 
 cout << " You will enter one half of a sentence here, and the rest in a moment";   //user enters text
-getlineFirst (cin getlineFirst);
+getline (cin, s1);
+
 cout << "OK, let's finish the sentence here:";
-getlineSecond (cin getlineSecond);
+getline (cin, s2);
 
-result = getlineFirst + "" + getlineSecond;
-result = getlineSecond + "" + getlineFirst;
+result1 = s1 + s2;
+result2 = s2 + s1;
 
-cout << result << endl;
+cout << result1 << endl;
+cout << result2 ;
 
 return 0;
 

@@ -13,10 +13,10 @@ using namespace std;
 int main(void) {
 
 string typingtutorialtext = "the quick brown fox";
-string endoftheline = "jumps over the lazy dog ';
+string endoftheline = "jumps over the lazy dog ";
 
-cout << typingtutorialtext + "" + endoftheline;
-cout << endoftheline + "" + typingtutorialtext;
+cout << typingtutorialtext + "" + endoftheline << endl;
+cout << endoftheline + "" + typingtutorialtext << endl;
 return 0;
 
 }

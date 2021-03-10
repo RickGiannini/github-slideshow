@@ -15,7 +15,7 @@ string guess = "orange";
 string answer;
 cout << "What color is an orange ?" << endl;
 getline(cin, answer);
-if(guess.compare (answer) == 0);
+if(guess.compare (answer) == 0)
 cout << "Thats correct.";
 else
 cout << "How did you get that wrong ?";

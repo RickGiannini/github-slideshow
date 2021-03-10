@@ -19,6 +19,6 @@ if(guess.compare (answer) == 0);
 cout << "Thats correct.";
 else
 cout << "How did you get that wrong ?";
-return 0,
+return 0;
 
 }

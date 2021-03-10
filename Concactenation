@@ -3,7 +3,7 @@
 //*  Rick Giannini               */
 //*  March 9, 2021               */
 //*  Ver 1.0                     */
-//*  Revised Date --/--/----     */
+//*  Revised Date 03/10/2021     */
 //********************************/
 
 #include <iostream>
@@ -12,11 +12,17 @@ using namespace std;
 
 int main(void) {
 
-string typingtutorialtext = "the quick brown fox ";
-string endoftheline = " jumps over the lazy dog ";
+string getlineFirst = " ";
+string getlineSecond = " ";
 
-cout << typingtutorialtext + "" + endoftheline << endl;
-cout << endoftheline + "" + typingtutorialtext << endl;
+cout << " You will enter one half of a sentence here, and the rest in a moment";   //user enters text
+cin getlineFirst;
+cout << "OK, let's finish the sentence here:";
+cin getlineSecond;
+
+cout << getlineFirst + "" + getlineSecond << endl;
+cout << getlineSecond + "" + getlineFirst << endl;
+
 return 0;
 
 }

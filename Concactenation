@@ -12,16 +12,15 @@ using namespace std;
 
 int main(void) {
 
-string getlineFirst = " ";
-string getlineSecond = " ";
+string getlineFirst, string getlineSecond, result;
 
 cout << " You will enter one half of a sentence here, and the rest in a moment";   //user enters text
 cin getlineFirst;
 cout << "OK, let's finish the sentence here:";
 cin getlineSecond;
 
-cout << getlineFirst + "" + getlineSecond << endl;
-cout << getlineSecond + "" + getlineFirst << endl;
+result = getlineFirst + "" + getlineSecond;
+result = getlineSecond + "" + getlineFirst;
 
 return 0;
 
